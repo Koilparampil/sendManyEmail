@@ -1,8 +1,0 @@
-pyinstaller --noconfirm --clean --onedir --windowed --name ValidatedTitlesSender `
-  --paths . `
-  --add-data ".env;." `
-  --add-data "C:\Program Files\Tesseract-OCR;tesseract" `
-  --add-data "C:\Program Files\poppler\Library\bin;poppler" `
-  --workpath "C:\Temp\VShipBuild\build" `
-  --distpath "D:\sendEmail" `
-  mainIG.py
